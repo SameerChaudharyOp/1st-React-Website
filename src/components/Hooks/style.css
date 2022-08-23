@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   display: flex;
   justify-content: center;
@@ -14,11 +14,11 @@ body {
   border-radius: 4px;
   position: relative;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 25px;
 }
 .button::after {
-  content: "HOVER ME";
+  content: 'HOVER ME';
   position: absolute;
   top: 41%;
   left: 50%;
@@ -27,7 +27,7 @@ body {
   transition: all 0.1s linear;
 }
 .button::before {
-  content: "";
+  content: '';
   position: relative;
   display: block;
   height: 15px;
@@ -69,8 +69,8 @@ body {
 }
 .button:hover::after {
   content: "I'M GLOWING";
-  text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc, 0 0 30px #82bedc,
-    0 0 40px #82bedc, 0 0 50px #82bedc, 0 0 60px #82bedc;
+  text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 20px #82bedc, 0 0 30px #82bedc, 0 0 40px #82bedc,
+    0 0 50px #82bedc, 0 0 60px #82bedc;
 }
 
 .button2 {
@@ -83,7 +83,7 @@ body {
   text-transform: uppercase;
   overflow: hidden;
   margin: 25px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   filter: hue-rotate(0deg);
   border: 2px solid #d2bdff;
   transition: all 0.1s linear;
