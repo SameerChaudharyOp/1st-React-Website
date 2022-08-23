@@ -2,15 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-
+  font-family: 'Lato', sans-serif;
 }
 
 html {
   background: #faf7f2;
   background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
@@ -82,7 +81,7 @@ html {
 }
 
 .card-title {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 60px;
   font-weight: 300;
   line-height: 60px;
@@ -110,7 +109,7 @@ html {
 
 .card-read:after {
   background-color: #b8bddd;
-  content: "";
+  content: '';
   display: block;
   height: 1px;
   position: absolute;
@@ -201,7 +200,7 @@ html {
   outline: none;
 }
 .btn-group__item:after {
-  content: "✔️";
+  content: '✔️';
   margin-left: 0.5rem;
   display: inline-block;
   color: rebeccapurple;

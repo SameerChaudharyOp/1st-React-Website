@@ -1,5 +1,5 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 const UseState = () => {
   // const initialData = 15;
@@ -16,9 +16,7 @@ const UseState = () => {
           <span></span>
           INCR
         </div>
-        <div
-          class="button2"
-          onClick={() => (myNum > 0 ? setMyNum(myNum - 1) : setMyNum(0))}>
+        <div class="button2" onClick={() => (myNum > 0 ? setMyNum(myNum - 1) : setMyNum(0))}>
           <span></span>
           <span></span>
           <span></span>
